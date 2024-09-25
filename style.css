@@ -1,0 +1,25 @@
+* {
+}
+
+.food-section {
+  display: inline-block;
+  margin: 2em;
+  padding: 1em;
+  width: 40%;
+  background-color: cadetblue;
+}
+
+.section-header {
+  background-color: cornflowerblue;
+}
+
+div header {
+  background-color: darkorange;
+}
+
+img {
+  margin: 2em;
+  display: inline-block;
+  width: 25em;
+  height: auto;
+}
