@@ -6,6 +6,28 @@
 
     <!-- EXTERNAL CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- INTERNAL CSS -->
+    <style>
+      .image-container {
+        border-radius: 25px;
+        overflow: hidden;
+      }
+
+      h3 {
+        display: inline-block;
+        width: 100%;
+        background-color: chartreuse;
+        padding: 10px;
+        margin: 0;
+      }
+
+      footer {
+        background-color: lightcoral;
+        padding: 0.5em;
+        border-radius: 10px;
+      }
+    </style>
     <!-- web page title -->
     <title>Grocery List</title>
   </head>
@@ -17,39 +39,43 @@
     <main>
       <article class="food-section">
         <h2>Pantry Items</h2>
-        <!-- section A -->
-        <section>
-          <h3>Canned Goods</h3>
-          <div>
-            <ul>
-              <li>Corn</li>
-              <li>Tuna</li>
-              <li>Green Beans</li>
-              <li>Crushed Tomatoes</li>
-            </ul>
-          </div>
-        </section>
-        <!-- section B -->
-        <section>
-          <h3>Dry Goods</h3>
-          <div>
-            <ul>
-              <li>Rice</li>
-              <li>Lentils</li>
-              <li>Oats</li>
-              <li>Pancake Mix</li>
-            </ul>
-          </div>
-        </section>
-        <!-- section C -->
-        <section class="visual">
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tasteofhome.com%2Fwp-content%2Fuploads%2F2019%2F09%2Fred-and-green-apples-e1566828641939.jpg&f=1&nofb=1&ipt=86eec0c0f96521c035868ab9bf1c07a6c3e65736da8cdd4d73b62af9760a65f3&ipo=images"
-            alt="Apples"
-          />
-        </section>
+        <div>
+          <!-- section A -->
+          <section>
+            <h3>Canned Goods</h3>
+            <div class="list-item">
+              <ul>
+                <li>Corn</li>
+                <li>Tuna</li>
+                <li>Green Beans</li>
+                <li>Crushed Tomatoes</li>
+              </ul>
+            </div>
+          </section>
+          <!-- section B -->
+          <section>
+            <h3>Dry Goods</h3>
+            <div>
+              <ul>
+                <li>Rice</li>
+                <li>Lentils</li>
+                <li>Oats</li>
+                <li>Pancake Mix</li>
+              </ul>
+            </div>
+          </section>
+          <!-- section C -->
+          <section class="visual">
+            <div class="image-container">
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tasteofhome.com%2Fwp-content%2Fuploads%2F2019%2F09%2Fred-and-green-apples-e1566828641939.jpg&f=1&nofb=1&ipt=86eec0c0f96521c035868ab9bf1c07a6c3e65736da8cdd4d73b62af9760a65f3&ipo=images"
+                alt="Apples"
+              />
+            </div>
+          </section>
+        </div>
       </article>
     </main>
-    <footer>Healthy Foods Inc.</footer>
+    <footer>Healthy Foods Pantry</footer>
   </body>
 </html>
