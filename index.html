@@ -3,79 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- EXTERNAL CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- INTERNAL CSS -->
-    <style>
-      .image-container {
-        border-radius: 25px;
-        overflow: hidden;
-      }
-
-      h3 {
-        display: inline-block;
-        width: 100%;
-        background-color: chartreuse;
-        padding: 10px;
-        margin: 0;
-      }
-
-      footer {
-        background-color: lightcoral;
-        padding: 0.5em;
-        border-radius: 10px;
-      }
-    </style>
-    <!-- web page title -->
-    <title>Grocery List</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
   </head>
-
   <body>
-    <header>
-      <h1>My Grocery List</h1>
-    </header>
-    <main>
-      <article class="food-section">
-        <h2>Pantry Items</h2>
-        <div>
-          <!-- section A -->
-          <section>
-            <h3>Canned Goods</h3>
-            <div class="list-item">
-              <ul>
-                <li>Corn</li>
-                <li>Tuna</li>
-                <li>Green Beans</li>
-                <li>Crushed Tomatoes</li>
-              </ul>
-            </div>
-          </section>
-          <!-- section B -->
-          <section>
-            <h3>Dry Goods</h3>
-            <div>
-              <ul>
-                <li>Rice</li>
-                <li>Lentils</li>
-                <li>Oats</li>
-                <li>Pancake Mix</li>
-              </ul>
-            </div>
-          </section>
-          <!-- section C -->
-          <section class="visual">
-            <div class="image-container">
-              <img
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tasteofhome.com%2Fwp-content%2Fuploads%2F2019%2F09%2Fred-and-green-apples-e1566828641939.jpg&f=1&nofb=1&ipt=86eec0c0f96521c035868ab9bf1c07a6c3e65736da8cdd4d73b62af9760a65f3&ipo=images"
-                alt="Apples"
-              />
-            </div>
-          </section>
-        </div>
-      </article>
-    </main>
-    <footer>Healthy Foods Pantry</footer>
+    <div class="flex-container">
+      <header class="main-header comic-neue-bold">
+        <h1 class="">My Shopping List</h1>
+      </header>
+      <main>
+        <!-- SECTION ONE -->
+        <article>
+          <header class="centered">
+            <h2>Pantry</h2>
+          </header>
+          <div class="section-container">
+            <!-- SUBSECTION -->
+            <section class="subsection pantry-1">
+              <header><h3>Canned</h3></header>
+              <div>
+                <ul>
+                  <li>Beans</li>
+                  <li>Corn</li>
+                  <li>Green Beans</li>
+                  <li>Tomatoes</li>
+                </ul>
+              </div>
+            </section>
+            <!-- SUBSECTION -->
+            <section class="subsection pantry-2">
+              <header><h3>Canned</h3></header>
+              <div>
+                <ul>
+                  <li>Beans</li>
+                  <li>Corn</li>
+                  <li>Green Beans</li>
+                  <li>Tomatoes</li>
+                </ul>
+              </div>
+            </section>
+            <aside class="subsection pantry-3">image</aside>
+          </div>
+        </article>
+        <!-- SECTION TWO -->
+        <article>
+          <header class="centered">
+            <h2>Freezer</h2>
+          </header>
+          <div class="section-container">
+            <!-- SUBSECTION -->
+            <section class="subsection pantry-1">
+              <header><h3>Canned</h3></header>
+              <div>
+                <ul>
+                  <li>Beans</li>
+                  <li>Corn</li>
+                  <li>Green Beans</li>
+                  <li>Tomatoes</li>
+                </ul>
+              </div>
+            </section>
+            <!-- SUBSECTION -->
+            <section class="subsection pantry-2">
+              <header><h3>Canned</h3></header>
+              <div>
+                <ul>
+                  <li>Beans</li>
+                  <li>Corn</li>
+                  <li>Green Beans</li>
+                  <li>Tomatoes</li>
+                </ul>
+              </div>
+            </section>
+            <aside class="subsection pantry-3">image</aside>
+          </div>
+        </article>
+      </main>
+      <footer>CSS Brands Inc.</footer>
+    </div>
   </body>
 </html>
